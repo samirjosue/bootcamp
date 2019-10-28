@@ -10,7 +10,7 @@ Route params = /users/1 => /users/id 'req.params.id'
 Request body = {"name": "Samir", "email": "samirjosue@gmail.com"}
 */
 
-const users = ['Samir', 'Yamuna', 'Alice'];
+const users = [];
 
 server.get('/users', (req, res) => {
   return res.json(users);
